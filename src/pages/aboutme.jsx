@@ -2,7 +2,6 @@
 import {
   Container,
 } from 'react-bootstrap';
-import portrait from '../../public/headshot.jpg';
 
 const aboutme = () => {
   
@@ -15,7 +14,7 @@ const aboutme = () => {
       
       <Container>
         <h2 className='pt-5'>
-          <img src={portrait} height={150}></img>
+          <img src='/Headshot.jpg' height='150' />
         </h2>
         <p>
           Hello, I am taking a coding bootcamp on fullstack engineering. I am working as an Environmental Consultant as of now but want to transition into the computer science field
